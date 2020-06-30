@@ -1,0 +1,258 @@
+/* Assets:
+
+Farben: #2B2C2E /  #9FA2A7 / #27282A /  #848689 / #3D3E41 / #fff */
+
+@font-face {
+    font-family: graphikmedium;
+    src: url(../fonts/Graphik-Medium.ttf);
+  }
+  @font-face {
+    font-family: graphikregular;
+    src: url(../fonts/Graphik-Regular.woff);
+  }
+  @font-face {
+    font-family: theinhard;
+    src: url(../fonts/Theinhardt-Lt.woff)
+  }
+  @font-face {
+    font-family: thiempos;
+    src: url(../fonts/TiemposHeadline-Semibold.woff)
+  }
+
+*{
+    margin:0;
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    padding-right: 6%;
+    padding-top: 7%;
+   
+}
+header h1{
+    font-family: thiempos;
+
+}
+
+nav ul{
+    display: flex;
+   
+    font-family:  graphikregular;
+}
+ul li{
+    list-style: none;
+    padding-top: 10%;
+}
+
+header  li a{
+    text-decoration: none;
+    padding-top: 7%;
+}
+header  li a:visited{
+   color: black;
+}
+
+.headerlink a{
+border: 4%;
+
+}
+.headerlink a:visited{
+    color:black
+}
+
+#section2{
+    background: url(../img/home_hero.png) center/cover no-repeat;
+    height: 100vh;
+    font-family: graphikregular;
+}
+
+#section2 h1{
+    padding-top: 7%;
+    text-align: center;
+}
+
+#section3 {
+    display: flex;
+    padding-top: 12%;
+    padding-bottom: 12%;
+}
+
+#section3 h3{
+    font-family: graphikmedium;
+    font-size: 15px;
+    width: 75%;
+    padding-left: 7%;
+    
+}
+
+#section3 div{
+    font-family: theinhard;
+}
+
+#section3 p:nth-of-type(1){
+    font-size: 28px;
+}
+#section3 p:last-of-type{
+    color: #9FA2A7;
+}
+
+#section4{
+    display: flex;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+#section4 div{
+    width: 50%;
+}
+
+#section4 img{
+    width: 90%;
+}
+
+#section4 h1{
+    font-family: thiempos;
+    padding-bottom: 1%;
+}
+
+#section4 h3{
+    font-family: graphikmedium;
+    padding-top: 2%;
+
+}
+
+#section4 p{
+    font-family: theinhard;
+    padding-top: 2%;
+}
+
+#section5 {
+    display: flex;
+    padding-top: 15%;
+    background-color: lightgrey;
+    padding-left: 2%;
+
+}
+#section5 div{
+    width: 50%;
+}
+
+#section5 img{
+    width: 90%;
+}
+
+#section5 h1{
+    font-family: thiempos;
+  font-size: 34px;
+  padding-bottom: 2%;
+}
+
+#section5 ol{
+    font-family: theinhard;
+    color: #9FA2A7;
+}
+
+#section5 p{
+    font-family: theinhard;
+    color: #9FA2A7;
+}
+
+#section6{
+    display: block;
+    border-bottom: 1px solid #9FA2A7;
+}
+
+#section6 h1{
+    font-family: thiempos;
+    font-size: 54px;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#section6 p:nth-of-type(1){
+font-family: theinhard;
+text-align: center;
+color: #9FA2A7;
+}
+
+
+#section6 div:first-of-type img{
+    Width: 90%; 
+    Margin-left:3%;
+    
+    transform: translateY(12%); 
+    margin-top:10%;
+    
+    
+    
+    }
+#section6 div:last-of-type img{
+
+    Width: 50%; 
+    Margin-left:43%;
+    
+    transform: translateY(-72%); 
+   
+
+
+
+}
+
+
+#section6 p:nth-of-type(2){
+font-family: graphikmedium;
+color:  #9FA2A7;
+text-align: center;
+padding-top: 1em;
+width: 40%;
+padding-left: 20%;
+}
+
+section:last-of-type {
+    height:50vh;
+    
+   
+}
+section:last-of-type h1{
+    text-align: center;
+    padding-top:10%;
+    padding-bottom:10%;
+    font-size: 44px;
+    font-family: thiempos;
+}
+
+section:last-of-type p{
+    
+    text-align: center;
+    font-family: graphikmedium;
+    color: #9FA2A7;
+}
+
+section:last-of-type img{
+    width: 10%;
+    margin-left: 20%;
+    transform: translateY(-72%);
+}
+
+section:last-of-type a{
+    text-decoration: none;
+}
+
+section:last-of-type a:visited{
+    color: black;
+}
+section:last-of-type a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+    
